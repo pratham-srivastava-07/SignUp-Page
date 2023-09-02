@@ -35,12 +35,12 @@ const DivlayoutAuthPage = () => {
             </div>
           </div>
           <div className="divor-box">
-            <div className="button1">
+            <button className="button1">
               <img className="svg-icon" alt="" src="/svg.svg" />
               <div className="span1">
                 <div className="continue-with-google">Continue With Google</div>
               </div>
-            </div>
+            </button>
             <div className="divline">
               <div className="span2">
                 <div className="or">OR</div>
@@ -63,9 +63,9 @@ const DivlayoutAuthPage = () => {
                 <div className="enter-full-name">Enter Unique Password</div>
               </div>
             </div>
-            <div className="button2">
+            <button className="button2">
               <div className="create-an-account">Create an account</div>
-            </div>
+            </button>
             <div className="pswitch-link">
               <div className="do-you-already-container">
                 <span>{`Do you already have an account? `}</span>
