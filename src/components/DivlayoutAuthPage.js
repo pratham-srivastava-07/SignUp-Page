@@ -2,6 +2,7 @@ import "./DivlayoutAuthPage.css";
 const DivlayoutAuthPage = () => {
   return (
     <div className="divlayout-auth-page">
+      <div className="home-page">Home</div>
       <div className="svg">
         <img className="vector-icon" alt="" src="/vector.svg" />
       </div>
