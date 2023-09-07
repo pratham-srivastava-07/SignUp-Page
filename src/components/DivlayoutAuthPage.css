@@ -210,6 +210,9 @@
   width: 382px;
   height: 52px;
   padding: var(--padding-base-5) var(--padding-mid);
+  background-color: black;
+  color: white;
+  font-size: 15px;
 }
 .divplaceholder1,
 .divplaceholder2 {

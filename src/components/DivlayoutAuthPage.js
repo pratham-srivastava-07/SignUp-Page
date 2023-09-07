@@ -49,21 +49,9 @@ const DivlayoutAuthPage = () => {
             </div>
           </div>
           <div className="form">
-            <div className="input">
-              <div className="divplaceholder">
-                <div className="enter-full-name">Enter Full Name</div>
-              </div>
-            </div>
-            <div className="input">
-              <div className="divplaceholder1">
-                <div className="enter-full-name">Enter Email Address</div>
-              </div>
-            </div>
-            <div className="input">
-              <div className="divplaceholder2">
-                <div className="enter-full-name">Enter Unique Password</div>
-              </div>
-            </div>
+            <input className="input" type="text" placeholder="Enter Your Name"></input>
+            <input className="input" type="email" placeholder="Enter Your Email"></input>
+            <input className="input" type="password" placeholder="Enter Unique Password"></input>
             <button className="button2">
               <div className="create-an-account">Create an account</div>
             </button>
