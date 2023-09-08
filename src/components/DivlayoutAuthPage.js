@@ -1,5 +1,11 @@
 import "./DivlayoutAuthPage.css";
 const DivlayoutAuthPage = () => {
+  
+  function validate(){
+    const mail = document.getElementById("email").value;
+    const regExp =  /^([a-zA-Z0-9\._]+)@([a-zA-Z0-9])+.([a-z]+)(.[a-z]+)?$/;
+    regExp.test(mail) ? alert("You have entered a valid email") : alert("You have entered wrong email");
+  }
   return (
     <div className="divlayout-auth-page">
       <div className="home-page">Home</div>
@@ -50,9 +56,9 @@ const DivlayoutAuthPage = () => {
           </div>
           <div className="form">
             <input className="input" type="text" placeholder="Enter Your Name"></input>
-            <input className="input" type="email" placeholder="Enter Your Email"></input>
+            <input className="input" type="email" placeholder="Enter Your Email" id="email"></input>
             <input className="input" type="password" placeholder="Enter Unique Password"></input>
-            <button className="button2">
+            <button onClick={validate} className="button2">
               <div className="create-an-account">Create an account</div>
             </button>
             <div className="pswitch-link">
