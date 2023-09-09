@@ -38,13 +38,16 @@
   padding: 71px 11.420000076293945px 0 11.800048828125px;
   opacity: 0.96;
   margin-left: -38px;
-  margin-bottom: 280px;
+  margin-bottom: 980px;
   cursor: pointer;
 }
 .betadayzerovercelapp-by-htm {
   position: relative;
   width: 100%;
+  background-color: black;
   height: 1px;
+  overflow-x: clip;
+  overflow-y: hidden;
   display: flex;
   flex-direction: row;
   padding: 1079px 0 0;
@@ -56,3 +59,4 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+

@@ -19,7 +19,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   transform: rotate(45deg);
-  transform-origin: 0 0;
 }
 .welcome-to-dayzero {
   margin-right: 130px;
@@ -307,17 +306,15 @@
   right: -84px;
   bottom: -76.5px;
   left: 84px;
-  overflow: hidden;
   padding: 0 0 var(--padding-138xl);
   align-items: center;
   justify-content: flex-start;
 }
 .divlayout-auth-page {
-  flex: 1;
-  position: relative;
+  flex: 1 1;
+  position: top;
   background-color: var(--color-black);
   height: 1080px;
-  overflow: hidden;
   text-align: center;
   font-size: var(--font-size-45xl);
   color: var(--color-gainsboro);
@@ -330,7 +327,4 @@
   float: right;
   margin-right: 100px;
   margin-top: 30px;
-}
-.home-page:hover {
-  color: grey;
 }
