@@ -9,7 +9,7 @@ const DivlayoutAuthPage = () => {
     regExp.test(mail) ? alert("You have entered a valid email") : alert("You have entered wrong email");
   }
   return (
-    <div className="divlayout-auth-page">
+    <div className="divlayout-auth-mypage">
       <div className="svg">
         <img className="vector-icon" alt="" src="/vector.svg" />
       </div>
@@ -60,7 +60,7 @@ const DivlayoutAuthPage = () => {
             <input className="input" type="email" placeholder="Enter Your Email" id="email"></input>
             <input className="input" type="password" placeholder="Enter Unique Password"></input>
             <button onClick={validate} className="button2">
-              <div className="create-an-account">Create an account</div>
+              <div className="create-an-account">Let's Login</div>
             </button>
             <div className="pswitch-link">
               <div className="do-you-already-container">

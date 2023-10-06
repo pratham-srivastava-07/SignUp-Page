@@ -242,6 +242,7 @@
     justify-content: flex-start;
     text-align: center;
     color: var(--color-whitesmoke-100);
+    width: 100%;
   }
   .login {
     cursor: pointer;
@@ -310,15 +311,18 @@
     align-items: center;
     justify-content: flex-start;
   }
-  .divlayout-auth-page {
+  .divlayout-auth-mypage {
     flex: 1 1;
-    position: top;
+    position: relative;
     background-color: var(--color-black);
     height: 1080px;
     text-align: center;
     font-size: var(--font-size-45xl);
     color: var(--color-gainsboro);
     font-family: var(--font-inter);
+    overflow-x: clip;
+    overflow-y: hidden;
+
   }
   .home-page {
     color: white;
