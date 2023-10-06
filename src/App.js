@@ -6,6 +6,8 @@ import {
 } from "react-router-dom";
 import BetadayzerovercelappByHtm from "./pages/BetadayzerovercelappByHtm";
 import { useEffect } from "react";
+import Login  from "./components/Login"
+
 
 function App() {
   const action = useNavigationType();
@@ -46,6 +48,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<BetadayzerovercelappByHtm />} />
+      <Route path="/login" element={<Login/>}/>
+      
     </Routes>
   );
 }

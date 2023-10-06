@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 import "./DivlayoutAuthPage.css";
 const DivlayoutAuthPage = () => {
   
@@ -63,7 +64,7 @@ const DivlayoutAuthPage = () => {
             <div className="pswitch-link">
               <div className="do-you-already-container">
                 <span>{`Do you already have an account? `}</span>
-                <span className="login">Login</span>
+                <Link to="/login"><span className="login">Login</span></Link>
               </div>
             </div>
           </div>
